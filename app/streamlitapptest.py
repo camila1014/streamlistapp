@@ -144,8 +144,6 @@ if tab == "Feature Importance":
             
             st.subheader("Feature Importances")
             st.bar_chart(sorted_importances)
-
-            print("hi")
 # -------------------------------------------------------------------------------------------------------
         elif def_selectbox == "Breast Cancer":   
 
