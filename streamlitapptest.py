@@ -1,4 +1,4 @@
-import streamlit as st  
+oimport streamlit as st  
 import plotly.graph_objects as go  
 import time  
 import pandas as pd  
@@ -140,7 +140,7 @@ if tab == "Feature Importance":
             st.subheader("Feature Importances")
             st.bar_chart(sorted_importances)
             
-            print("hi")
+            print("hello")
             
 # -------------------------------------------------------------------------------------------------------
         elif def_selectbox == "Breast Cancer":   
